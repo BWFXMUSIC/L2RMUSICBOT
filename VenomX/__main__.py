@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from L2RMUSIC import LOGGER, app, userbot
-from L2RMUSIC.core.call import Ashish
+from L2RMUSIC.core.call import SOURABH
 from L2RMUSIC.misc import sudo
 from L2RMUSIC.plugins import ALL_MODULES
 from L2RMUSIC.utils.database import get_banned_users, get_gbanned
@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("L2RMUSIC.plugins" + all_module)
     LOGGER("L2RMUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Ashish.start()
+    await SOURABH.start()
     try:
-        await Ashish.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await SOURABH.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("L2RMUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await Ashish.decorators()
+    await SOURABH.decorators()
     LOGGER("L2RMUSIC").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
 
     await idle()

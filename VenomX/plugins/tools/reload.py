@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from L2RMUSIC import app
-from L2RMUSIC.core.call import Ashish
+from L2RMUSIC.core.call import SOURABH
 from L2RMUSIC.misc import db
 from L2RMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from L2RMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
@@ -53,7 +53,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await Ashish.stop_stream_force(message.chat.id)
+        await SOURABH.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
@@ -80,7 +80,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await Ashish.stop_stream_force(chat_id)
+            await SOURABH.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))

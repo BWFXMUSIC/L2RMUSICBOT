@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from L2RMUSIC import app
-from L2RMUSIC.core.call import Ashish, autoend
+from L2RMUSIC.core.call import SOURABH, autoend
 from L2RMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
@@ -27,7 +27,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Ashish.stop_stream(chat_id)
+                    await SOURABH.stop_stream(chat_id)
                 except:
                     continue
                 try:

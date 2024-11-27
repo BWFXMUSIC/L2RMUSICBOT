@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from L2RMUSIC import app
-from L2RMUSIC.core.call import Ashish
+from L2RMUSIC.core.call import SOURABH
 from L2RMUSIC.misc import SUDOERS, db
 from L2RMUSIC.utils import AdminRightsCheck
 from L2RMUSIC.utils.database import is_active_chat, is_nonadmin_chat
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await Ashish.speedup_stream(
+        await SOURABH.speedup_stream(
             chat_id,
             file_path,
             speed,
