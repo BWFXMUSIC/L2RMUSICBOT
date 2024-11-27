@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from L2RMUSIC import app
-from L2RMUSIC.core.userbot import assistants
-from L2RMUSIC.misc import SUDOERS, mongodb
-from L2RMUSIC.plugins import ALL_MODULES
-from L2RMUSIC.utils.database import get_served_chats, get_served_users, get_sudoers
-from L2RMUSIC.utils.decorators.language import language, languageCB
-from L2RMUSIC.utils.inline.stats import back_stats_buttons, stats_buttons
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.userbot import assistants
+from PROFESSOR-SOURABH.misc import SUDOERS, mongodb
+from PROFESSOR-SOURABH.plugins import ALL_MODULES
+from PROFESSOR-SOURABH.utils.database import get_served_chats, get_served_users, get_sudoers
+from PROFESSOR-SOURABH.utils.decorators.language import language, languageCB
+from PROFESSOR-SOURABH.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 

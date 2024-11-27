@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.misc import SUDOERS
+from PROFESSOR-SOURABH.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from L2RMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from L2RMUSIC.utils.inline import botplaylist_markup
+from PROFESSOR-SOURABH.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

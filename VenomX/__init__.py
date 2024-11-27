@@ -1,8 +1,8 @@
-from L2RMUSIC.core.bot import SOURABH
-from L2RMUSIC.core.dir import dirr
-from L2RMUSIC.core.git import git
-from L2RMUSIC.core.userbot import Userbot
-from L2RMUSIC.misc import dbb, heroku
+from PROFESSOR-SOURABH.core.bot import SOURABH
+from PROFESSOR-SOURABH.core.dir import dirr
+from PROFESSOR-SOURABH.core.git import git
+from PROFESSOR-SOURABH.core.userbot import Userbot
+from PROFESSOR-SOURABH.misc import dbb, heroku
 
 from .logging import LOGGER
 

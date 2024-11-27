@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from L2RMUSIC.utils.decorators import language
-from L2RMUSIC.utils.inline.settings import playmode_users_markup
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from PROFESSOR-SOURABH.utils.decorators import language
+from PROFESSOR-SOURABH.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 

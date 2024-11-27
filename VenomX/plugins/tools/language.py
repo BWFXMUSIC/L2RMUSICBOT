@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import get_lang, set_lang
-from L2RMUSIC.utils.decorators import ActualAdminCB, language, languageCB
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import get_lang, set_lang
+from PROFESSOR-SOURABH.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from L2RMUSIC import app
-from L2RMUSIC.utils.formatters import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

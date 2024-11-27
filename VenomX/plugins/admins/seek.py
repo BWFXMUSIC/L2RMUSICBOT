@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils import AdminRightsCheck, seconds_to_min
-from L2RMUSIC.utils.inline import close_markup
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils import AdminRightsCheck, seconds_to_min
+from PROFESSOR-SOURABH.utils.inline import close_markup
 from config import BANNED_USERS
 
 

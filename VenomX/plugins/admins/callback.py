@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import SUDOERS, db
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import SUDOERS, db
+from PROFESSOR-SOURABH.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from L2RMUSIC.utils.database import (
     music_on,
     set_loop,
 )
-from L2RMUSIC.utils.decorators.language import languageCB
-from L2RMUSIC.utils.formatters import seconds_to_min
-from L2RMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from L2RMUSIC.utils.stream.autoclear import auto_clean
-from L2RMUSIC.utils.thumbnails import get_thumb
+from PROFESSOR-SOURABH.utils.decorators.language import languageCB
+from PROFESSOR-SOURABH.utils.formatters import seconds_to_min
+from PROFESSOR-SOURABH.utils.inline import close_markup, stream_markup, stream_markup_timer
+from PROFESSOR-SOURABH.utils.stream.autoclear import auto_clean
+from PROFESSOR-SOURABH.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

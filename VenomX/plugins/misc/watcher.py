@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.core.call import SOURABH
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.call import SOURABH
 
 welcome = 20
 close = 30

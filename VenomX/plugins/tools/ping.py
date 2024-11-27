@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.utils import bot_sys_stats
-from L2RMUSIC.utils.decorators.language import language
-from L2RMUSIC.utils.inline import supp_markup
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.utils import bot_sys_stats
+from PROFESSOR-SOURABH.utils.decorators.language import language
+from PROFESSOR-SOURABH.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

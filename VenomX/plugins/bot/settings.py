@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from L2RMUSIC.utils.database import (
     skip_off,
     skip_on,
 )
-from L2RMUSIC.utils.decorators.admins import ActualAdminCB
-from L2RMUSIC.utils.decorators.language import language, languageCB
-from L2RMUSIC.utils.inline.settings import (
+from PROFESSOR-SOURABH.utils.decorators.admins import ActualAdminCB
+from PROFESSOR-SOURABH.utils.decorators.language import language, languageCB
+from PROFESSOR-SOURABH.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from L2RMUSIC.utils.inline.start import private_panel
+from PROFESSOR-SOURABH.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

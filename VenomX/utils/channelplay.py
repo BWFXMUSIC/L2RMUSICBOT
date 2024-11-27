@@ -1,5 +1,5 @@
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import get_cmode
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

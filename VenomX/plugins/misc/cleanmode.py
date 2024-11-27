@@ -8,16 +8,16 @@ from pyrogram.raw import types
 
 import config
 from config import adminlist, chatstats, clean, userstats
-from L2RMUSIC import app, userbot
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils.database import (get_active_chats,
+from PROFESSOR-SOURABH import app, userbot
+from PROFESSOR-SOURABH.misc import SUDOERS
+from PROFESSOR-SOURABH.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        
  get_served_chats,
  get_served_users, is_cleanmode_on, set_queries)
                                        
-from L2RMUSIC.utils.decorators.language import language
-from L2RMUSIC.utils.formatters import alpha_to_int
+from PROFESSOR-SOURABH.utils.decorators.language import language
+from PROFESSOR-SOURABH.utils.formatters import alpha_to_int
 
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
 AUTO_SLEEP = 5

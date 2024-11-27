@@ -12,10 +12,10 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.utils.decorators.language import language, languageCB
-from L2RMUSIC.utils.formatters import convert_bytes
-from L2RMUSIC.utils.inline.song import song_markup
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.utils.decorators.language import language, languageCB
+from PROFESSOR-SOURABH.utils.formatters import convert_bytes
+from PROFESSOR-SOURABH.utils.inline.song import song_markup
 
 
 

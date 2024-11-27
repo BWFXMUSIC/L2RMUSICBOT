@@ -3,7 +3,7 @@ import math
 from config import SUPPORT_CHAT, OWNER_ID
 from pyrogram.types import InlineKeyboardButton
 
-from L2RMUSIC.utils.formatters import time_to_seconds
+from PROFESSOR-SOURABH.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):

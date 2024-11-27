@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from L2RMUSIC import app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from L2RMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
-from L2RMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils.database import get_assistant, get_authuser_names, get_cmode
+from PROFESSOR-SOURABH.utils.decorators import ActualAdminCB, AdminActual, language
+from PROFESSOR-SOURABH.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}

@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils.database import get_loop
-from L2RMUSIC.utils.decorators import AdminRightsCheck
-from L2RMUSIC.utils.inline import close_markup, stream_markup
-from L2RMUSIC.utils.stream.autoclear import auto_clean
-from L2RMUSIC.utils.thumbnails import get_thumb
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils.database import get_loop
+from PROFESSOR-SOURABH.utils.decorators import AdminRightsCheck
+from PROFESSOR-SOURABH.utils.inline import close_markup, stream_markup
+from PROFESSOR-SOURABH.utils.stream.autoclear import auto_clean
+from PROFESSOR-SOURABH.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

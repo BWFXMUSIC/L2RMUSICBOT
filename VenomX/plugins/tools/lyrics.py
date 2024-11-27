@@ -10,8 +10,8 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
 from config import BANNED_USERS, lyrical
-from L2RMUSIC import app
-from L2RMUSIC.utils.decorators.language import language
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.decorators.language import language
 
 
 api_key = "Vd9FvPMOKWfsKJNG9RbZnItaTNIRFzVyyXFdrGHONVsGqHcHBoj3AI3sIlNuqzuf0ZNG8uLcF9wAd5DXBBnUzA"

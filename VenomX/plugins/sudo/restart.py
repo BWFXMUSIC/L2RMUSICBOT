@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from L2RMUSIC import app
-from L2RMUSIC.misc import HAPP, SUDOERS, XCB
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import HAPP, SUDOERS, XCB
+from PROFESSOR-SOURABH.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from L2RMUSIC.utils.decorators.language import language
-from L2RMUSIC.utils.pastebin import SOURABHBin
+from PROFESSOR-SOURABH.utils.decorators.language import language
+from PROFESSOR-SOURABH.utils.pastebin import SOURABHBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

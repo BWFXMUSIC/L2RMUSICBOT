@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from L2RMUSIC import app
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import SUDOERS
+from PROFESSOR-SOURABH.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

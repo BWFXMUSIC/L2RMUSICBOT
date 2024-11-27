@@ -1,4 +1,4 @@
-from L2RMUSIC import app 
+from PROFESSOR-SOURABH import app 
 import asyncio
 import random
 from pyrogram import Client, filters

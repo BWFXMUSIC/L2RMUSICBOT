@@ -10,7 +10,7 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from L2RMUSIC import app
+from PROFESSOR-SOURABH import app
 from config import OWNER_ID
 
 

@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 import config
 from config import clean
 from strings import get_string
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import (get_lang,
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import (get_lang,
                                        get_served_chats,
                                        is_suggestion)
 

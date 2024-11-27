@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from L2RMUSIC import app
+from PROFESSOR-SOURABH import app
 
 
 def start_panel(_):

@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils import get_readable_time
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import SUDOERS
+from PROFESSOR-SOURABH.utils import get_readable_time
+from PROFESSOR-SOURABH.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from L2RMUSIC.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from L2RMUSIC.utils.decorators.language import language
-from L2RMUSIC.utils.extraction import extract_user
+from PROFESSOR-SOURABH.utils.decorators.language import language
+from PROFESSOR-SOURABH.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

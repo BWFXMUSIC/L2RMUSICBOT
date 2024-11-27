@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from L2RMUSIC import Carbon, YouTube, app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils.database import add_active_video_chat, is_active_chat
-from L2RMUSIC.utils.exceptions import AssistantErr
-from L2RMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from L2RMUSIC.utils.pastebin import SOURABHBin
-from L2RMUSIC.utils.stream.queue import put_queue, put_queue_index
-from L2RMUSIC.utils.thumbnails import get_thumb
+from PROFESSOR-SOURABH import Carbon, YouTube, app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils.database import add_active_video_chat, is_active_chat
+from PROFESSOR-SOURABH.utils.exceptions import AssistantErr
+from PROFESSOR-SOURABH.utils.inline import aq_markup, close_markup, stream_markup
+from PROFESSOR-SOURABH.utils.pastebin import SOURABHBin
+from PROFESSOR-SOURABH.utils.stream.queue import put_queue, put_queue_index
+from PROFESSOR-SOURABH.utils.thumbnails import get_thumb
 
 
 async def stream(

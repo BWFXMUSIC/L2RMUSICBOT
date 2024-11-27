@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from L2RMUSIC.core.mongo import mongodb
+from PROFESSOR-SOURABH.core.mongo import mongodb
 
 from .logging import LOGGER
 

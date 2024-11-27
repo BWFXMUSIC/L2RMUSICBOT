@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.utils.database import set_cmode
-from L2RMUSIC.utils.decorators.admins import AdminActual
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils.database import set_cmode
+from PROFESSOR-SOURABH.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

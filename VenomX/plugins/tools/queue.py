@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from L2RMUSIC import app
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils import SOURABHBin, get_channeplayCB, seconds_to_min
-from L2RMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
-from L2RMUSIC.utils.decorators.language import language, languageCB
-from L2RMUSIC.utils.inline import queue_back_markup, queue_markup
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils import SOURABHBin, get_channeplayCB, seconds_to_min
+from PROFESSOR-SOURABH.utils.database import get_cmode, is_active_chat, is_music_playing
+from PROFESSOR-SOURABH.utils.decorators.language import language, languageCB
+from PROFESSOR-SOURABH.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

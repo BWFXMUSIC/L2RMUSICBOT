@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from L2RMUSIC.misc import _boot_
-from L2RMUSIC.utils.formatters import get_readable_time
+from PROFESSOR-SOURABH.misc import _boot_
+from PROFESSOR-SOURABH.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

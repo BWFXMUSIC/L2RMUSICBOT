@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.utils import extract_user, int_to_alpha
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.utils import extract_user, int_to_alpha
+from PROFESSOR-SOURABH.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from L2RMUSIC.utils.decorators import AdminActual, language
-from L2RMUSIC.utils.inline import close_markup
+from PROFESSOR-SOURABH.utils.decorators import AdminActual, language
+from PROFESSOR-SOURABH.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

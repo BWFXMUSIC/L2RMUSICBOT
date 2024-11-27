@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from L2RMUSIC import app
-from L2RMUSIC.core.call import SOURABH, autoend
-from L2RMUSIC.utils.database import get_client, is_active_chat, is_autoend
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.call import SOURABH, autoend
+from PROFESSOR-SOURABH.utils.database import get_client, is_active_chat, is_autoend
 
 
 

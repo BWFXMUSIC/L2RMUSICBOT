@@ -1,6 +1,6 @@
 from telegraph import upload_file
 from pyrogram import filters
-from L2RMUSIC import app
+from PROFESSOR-SOURABH import app
 from pyrogram.types import InputMediaPhoto
 
 ### ❖ ➥ 𝗕𝐖𝗙™🇮🇳

@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from L2RMUSIC.utils.decorators.language import language
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import SUDOERS
+from PROFESSOR-SOURABH.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from PROFESSOR-SOURABH.utils.decorators.language import language
 from config import BANNED_USERS
 
 

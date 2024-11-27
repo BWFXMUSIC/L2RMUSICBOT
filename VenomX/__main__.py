@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from L2RMUSIC import LOGGER, app, userbot
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import sudo
-from L2RMUSIC.plugins import ALL_MODULES
-from L2RMUSIC.utils.database import get_banned_users, get_gbanned
+from PROFESSOR-SOURABH import LOGGER, app, userbot
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import sudo
+from PROFESSOR-SOURABH.plugins import ALL_MODULES
+from PROFESSOR-SOURABH.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,26 +35,26 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("L2RMUSIC.plugins" + all_module)
-    LOGGER("L2RMUSIC.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("PROFESSOR-SOURABH.plugins" + all_module)
+    LOGGER("PROFESSOR-SOURABH.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await SOURABH.start()
     try:
         await SOURABH.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("L2RMUSIC").error(
+        LOGGER("PROFESSOR-SOURABH").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await SOURABH.decorators()
-    LOGGER("L2RMUSIC").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
+    LOGGER("PROFESSOR-SOURABH").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
 
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("L2RMUSIC").info("Stopping L2RMUSIC Music Bot...")
+    LOGGER("PROFESSOR-SOURABH").info("Stopping PROFESSOR-SOURABH Music Bot...")
 
 
 if __name__ == "__main__":

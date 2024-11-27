@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils.decorators import AdminRightsCheck
-from L2RMUSIC.utils.inline import close_markup
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils.decorators import AdminRightsCheck
+from PROFESSOR-SOURABH.utils.inline import close_markup
 from config import BANNED_USERS
 
 

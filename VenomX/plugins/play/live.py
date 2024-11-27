@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from L2RMUSIC import YouTube, app
-from L2RMUSIC.utils.channelplay import get_channeplayCB
-from L2RMUSIC.utils.decorators.language import languageCB
-from L2RMUSIC.utils.stream.stream import stream
+from PROFESSOR-SOURABH import YouTube, app
+from PROFESSOR-SOURABH.utils.channelplay import get_channeplayCB
+from PROFESSOR-SOURABH.utils.decorators.language import languageCB
+from PROFESSOR-SOURABH.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

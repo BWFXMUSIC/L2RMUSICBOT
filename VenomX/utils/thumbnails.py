@@ -84,7 +84,7 @@ async def get_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("L2RMUSIC/assets/circle.png")
+            circle = Image.open("PROFESSOR-SOURABH/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -116,10 +116,10 @@ async def get_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('L2RMUSIC/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('L2RMUSIC/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('PROFESSOR-SOURABH/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('PROFESSOR-SOURABH/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('PROFESSOR-SOURABH/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('PROFESSOR-SOURABH/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "L2R MUSIC", fill="white", font = font1, align ="left") 

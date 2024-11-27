@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from L2RMUSIC import app
-from L2RMUSIC.misc import SUDOERS, db
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.misc import SUDOERS, db
+from PROFESSOR-SOURABH.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

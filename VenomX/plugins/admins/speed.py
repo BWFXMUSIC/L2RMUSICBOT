@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from L2RMUSIC import app
-from L2RMUSIC.core.call import SOURABH
-from L2RMUSIC.misc import SUDOERS, db
-from L2RMUSIC.utils import AdminRightsCheck
-from L2RMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from L2RMUSIC.utils.decorators.language import languageCB
-from L2RMUSIC.utils.inline import close_markup, speed_markup
+from PROFESSOR-SOURABH import app
+from PROFESSOR-SOURABH.core.call import SOURABH
+from PROFESSOR-SOURABH.misc import SUDOERS, db
+from PROFESSOR-SOURABH.utils import AdminRightsCheck
+from PROFESSOR-SOURABH.utils.database import is_active_chat, is_nonadmin_chat
+from PROFESSOR-SOURABH.utils.decorators.language import languageCB
+from PROFESSOR-SOURABH.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

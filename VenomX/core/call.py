@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from L2RMUSIC import LOGGER, YouTube, app
-from L2RMUSIC.misc import db
-from L2RMUSIC.utils.database import (
+from PROFESSOR-SOURABH import LOGGER, YouTube, app
+from PROFESSOR-SOURABH.misc import db
+from PROFESSOR-SOURABH.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from L2RMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from L2RMUSIC.utils.exceptions import AssistantErr
-from L2RMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from L2RMUSIC.utils.inline.play import stream_markup
-from L2RMUSIC.utils.stream.autoclear import auto_clean
-from L2RMUSIC.utils.thumbnails import get_thumb
+from PROFESSOR-SOURABH.utils.exceptions import AssistantErr
+from PROFESSOR-SOURABH.utils.formatters import check_duration, seconds_to_min, speed_converter
+from PROFESSOR-SOURABH.utils.inline.play import stream_markup
+from PROFESSOR-SOURABH.utils.stream.autoclear import auto_clean
+from PROFESSOR-SOURABH.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -51,7 +51,7 @@ async def _clear_(chat_id):
 class Call(PyTgCalls):
     def __init__(self):
         self.userbot1 = Client(
-            name="L2RMUSICAss1",
+            name="PROFESSOR-SOURABHAss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -61,7 +61,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot2 = Client(
-            name="L2RMUSICAss2",
+            name="PROFESSOR-SOURABHAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -71,7 +71,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot3 = Client(
-            name="L2RMUSICAss3",
+            name="PROFESSOR-SOURABHAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -81,7 +81,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot4 = Client(
-            name="L2RMUSICAss4",
+            name="PROFESSOR-SOURABHAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -91,7 +91,7 @@ class Call(PyTgCalls):
             cache_duration=100,
         )
         self.userbot5 = Client(
-            name="L2RMUSICAss5",
+            name="PROFESSOR-SOURABHAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
