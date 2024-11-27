@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.misc import db
-from VenomX.utils.decorators import AdminRightsCheck
-from VenomX.utils.inline import close_markup
+from L2RMUSIC import app
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.decorators import AdminRightsCheck
+from L2RMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

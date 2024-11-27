@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import add_sudo, remove_sudo
-from VenomX.utils.decorators.language import language
-from VenomX.utils.extraction import extract_user
-from VenomX.utils.inline import close_markup
+from L2RMUSIC import app
+from L2RMUSIC.misc import SUDOERS
+from L2RMUSIC.utils.database import add_sudo, remove_sudo
+from L2RMUSIC.utils.decorators.language import language
+from L2RMUSIC.utils.extraction import extract_user
+from L2RMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 

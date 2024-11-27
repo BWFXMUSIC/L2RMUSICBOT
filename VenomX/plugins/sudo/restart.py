@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from VenomX import app
-from VenomX.misc import HAPP, SUDOERS, XCB
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.misc import HAPP, SUDOERS, XCB
+from L2RMUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from VenomX.utils.decorators.language import language
-from VenomX.utils.pastebin import AyushBin
+from L2RMUSIC.utils.decorators.language import language
+from L2RMUSIC.utils.pastebin import AyushBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

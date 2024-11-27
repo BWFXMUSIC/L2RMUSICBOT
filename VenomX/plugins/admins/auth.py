@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.utils import extract_user, int_to_alpha
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.utils import extract_user, int_to_alpha
+from L2RMUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from VenomX.utils.decorators import AdminActual, language
-from VenomX.utils.inline import close_markup
+from L2RMUSIC.utils.decorators import AdminActual, language
+from L2RMUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

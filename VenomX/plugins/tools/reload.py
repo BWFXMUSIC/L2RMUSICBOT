@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils.database import get_assistant, get_authuser_names, get_cmode
-from VenomX.utils.decorators import ActualAdminCB, AdminActual, language
-from VenomX.utils.formatters import alpha_to_int, get_readable_time
+from L2RMUSIC import app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from L2RMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from L2RMUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}

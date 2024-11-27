@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 import config
 from config import clean
 from strings import get_string
-from VenomX import app
-from VenomX.utils.database import (get_lang,
+from L2RMUSIC import app
+from L2RMUSIC.utils.database import (get_lang,
                                        get_served_chats,
                                        is_suggestion)
 

@@ -1,7 +1,7 @@
 import asyncio
 
-from VenomX.misc import db
-from VenomX.utils.database import get_active_chats, is_music_playing
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

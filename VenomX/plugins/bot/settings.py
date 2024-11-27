@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from VenomX import app
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from VenomX.utils.database import (
     skip_off,
     skip_on,
 )
-from VenomX.utils.decorators.admins import ActualAdminCB
-from VenomX.utils.decorators.language import language, languageCB
-from VenomX.utils.inline.settings import (
+from L2RMUSIC.utils.decorators.admins import ActualAdminCB
+from L2RMUSIC.utils.decorators.language import language, languageCB
+from L2RMUSIC.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from VenomX.utils.inline.start import private_panel
+from L2RMUSIC.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

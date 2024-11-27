@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.utils.database import set_cmode
-from VenomX.utils.decorators.admins import AdminActual
+from L2RMUSIC import app
+from L2RMUSIC.utils.database import set_cmode
+from L2RMUSIC.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

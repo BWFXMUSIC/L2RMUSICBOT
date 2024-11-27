@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from VenomX.misc import _boot_
-from VenomX.utils.formatters import get_readable_time
+from L2RMUSIC.misc import _boot_
+from L2RMUSIC.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():

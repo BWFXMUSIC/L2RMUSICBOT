@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VenomX import YouTube, app
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import (
+from L2RMUSIC import YouTube, app
+from L2RMUSIC.misc import SUDOERS
+from L2RMUSIC.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from VenomX.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from VenomX.utils.inline import botplaylist_markup
+from L2RMUSIC.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 

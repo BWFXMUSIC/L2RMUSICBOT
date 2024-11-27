@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from VenomX import LOGGER, app, userbot
-from VenomX.core.call import Ayush
-from VenomX.misc import sudo
-from VenomX.plugins import ALL_MODULES
-from VenomX.utils.database import get_banned_users, get_gbanned
+from L2RMUSIC import LOGGER, app, userbot
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import sudo
+from L2RMUSIC.plugins import ALL_MODULES
+from L2RMUSIC.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,26 +35,26 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("VenomX.plugins" + all_module)
-    LOGGER("VenomX.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("L2RMUSIC.plugins" + all_module)
+    LOGGER("L2RMUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Ayush.start()
     try:
         await Ayush.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("VenomX").error(
+        LOGGER("L2RMUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Ayush.decorators()
-    LOGGER("VenomX").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
+    LOGGER("L2RMUSIC").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
 
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VenomX").info("Stopping VenomX Music Bot...")
+    LOGGER("L2RMUSIC").info("Stopping L2RMUSIC Music Bot...")
 
 
 if __name__ == "__main__":

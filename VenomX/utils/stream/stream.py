@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from VenomX import Carbon, YouTube, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils.database import add_active_video_chat, is_active_chat
-from VenomX.utils.exceptions import AssistantErr
-from VenomX.utils.inline import aq_markup, close_markup, stream_markup
-from VenomX.utils.pastebin import AyushBin
-from VenomX.utils.stream.queue import put_queue, put_queue_index
-from VenomX.utils.thumbnails import get_thumb
+from L2RMUSIC import Carbon, YouTube, app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.database import add_active_video_chat, is_active_chat
+from L2RMUSIC.utils.exceptions import AssistantErr
+from L2RMUSIC.utils.inline import aq_markup, close_markup, stream_markup
+from L2RMUSIC.utils.pastebin import AyushBin
+from L2RMUSIC.utils.stream.queue import put_queue, put_queue_index
+from L2RMUSIC.utils.thumbnails import get_thumb
 
 
 async def stream(

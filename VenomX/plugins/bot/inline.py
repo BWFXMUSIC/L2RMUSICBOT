@@ -5,8 +5,8 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from VenomX import app
-from VenomX.utils.inlinequery import answer
+from L2RMUSIC import app
+from L2RMUSIC.utils.inlinequery import answer
 from config import BANNED_USERS
 
 

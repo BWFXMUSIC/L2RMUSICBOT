@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import YouTube, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils import AdminRightsCheck, seconds_to_min
-from VenomX.utils.inline import close_markup
+from L2RMUSIC import YouTube, app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils import AdminRightsCheck, seconds_to_min
+from L2RMUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

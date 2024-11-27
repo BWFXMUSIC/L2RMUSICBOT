@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from VenomX import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from VenomX.core.call import Ayush
-from VenomX.utils import seconds_to_min, time_to_seconds
-from VenomX.utils.channelplay import get_channeplayCB
-from VenomX.utils.decorators.language import languageCB
-from VenomX.utils.decorators.play import PlayWrapper
-from VenomX.utils.formatters import formats
-from VenomX.utils.inline import (
+from L2RMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.utils import seconds_to_min, time_to_seconds
+from L2RMUSIC.utils.channelplay import get_channeplayCB
+from L2RMUSIC.utils.decorators.language import languageCB
+from L2RMUSIC.utils.decorators.play import PlayWrapper
+from L2RMUSIC.utils.formatters import formats
+from L2RMUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from VenomX.utils.logger import play_logs
-from VenomX.utils.stream.stream import stream
+from L2RMUSIC.utils.logger import play_logs
+from L2RMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

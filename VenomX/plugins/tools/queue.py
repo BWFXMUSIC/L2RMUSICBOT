@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from VenomX import app
-from VenomX.misc import db
-from VenomX.utils import AyushBin, get_channeplayCB, seconds_to_min
-from VenomX.utils.database import get_cmode, is_active_chat, is_music_playing
-from VenomX.utils.decorators.language import language, languageCB
-from VenomX.utils.inline import queue_back_markup, queue_markup
+from L2RMUSIC import app
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils import AyushBin, get_channeplayCB, seconds_to_min
+from L2RMUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from L2RMUSIC.utils.decorators.language import language, languageCB
+from L2RMUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.misc import SUDOERS
+from L2RMUSIC.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,

@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from VenomX import app
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import add_off, add_on
-from VenomX.utils.decorators.language import language
+from L2RMUSIC import app
+from L2RMUSIC.misc import SUDOERS
+from L2RMUSIC.utils.database import add_off, add_on
+from L2RMUSIC.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from VenomX import app
-from VenomX.utils.database import is_on_off
+from L2RMUSIC import app
+from L2RMUSIC.utils.database import is_on_off
 from config import LOGGER_ID
 
 

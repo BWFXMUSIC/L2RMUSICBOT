@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from VenomX import YouTube, app
-from VenomX.utils.channelplay import get_channeplayCB
-from VenomX.utils.decorators.language import languageCB
-from VenomX.utils.stream.stream import stream
+from L2RMUSIC import YouTube, app
+from L2RMUSIC.utils.channelplay import get_channeplayCB
+from L2RMUSIC.utils.decorators.language import languageCB
+from L2RMUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

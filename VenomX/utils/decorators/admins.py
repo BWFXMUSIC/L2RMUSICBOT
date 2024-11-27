@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VenomX import app
-from VenomX.misc import SUDOERS, db
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.misc import SUDOERS, db
+from L2RMUSIC.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from VenomX import app
-from VenomX.core.call import Ayush, autoend
-from VenomX.utils.database import get_client, is_active_chat, is_autoend
+from L2RMUSIC import app
+from L2RMUSIC.core.call import Ayush, autoend
+from L2RMUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
 

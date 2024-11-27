@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from VenomX.misc import db
-from VenomX.utils.formatters import check_duration, seconds_to_min
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

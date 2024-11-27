@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from VenomX.utils.formatters import seconds_to_min
+from L2RMUSIC.utils.formatters import seconds_to_min
 
 
 class SoundAPI:

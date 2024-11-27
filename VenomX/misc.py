@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from VenomX.core.mongo import mongodb
+from L2RMUSIC.core.mongo import mongodb
 
 from .logging import LOGGER
 

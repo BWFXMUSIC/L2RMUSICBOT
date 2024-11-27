@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from VenomX import YouTube, app
-from VenomX.core.call import Ayush
-from VenomX.misc import db
-from VenomX.utils.database import get_loop
-from VenomX.utils.decorators import AdminRightsCheck
-from VenomX.utils.inline import close_markup, stream_markup
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.thumbnails import get_thumb
+from L2RMUSIC import YouTube, app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import db
+from L2RMUSIC.utils.database import get_loop
+from L2RMUSIC.utils.decorators import AdminRightsCheck
+from L2RMUSIC.utils.inline import close_markup, stream_markup
+from L2RMUSIC.utils.stream.autoclear import auto_clean
+from L2RMUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

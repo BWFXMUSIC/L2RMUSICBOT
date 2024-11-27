@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.utils import bot_sys_stats
-from VenomX.utils.decorators.language import language
-from VenomX.utils.inline import supp_markup
+from L2RMUSIC import app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.utils import bot_sys_stats
+from L2RMUSIC.utils.decorators.language import language
+from L2RMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

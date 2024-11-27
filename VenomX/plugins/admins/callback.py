@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from VenomX import YouTube, app
-from VenomX.core.call import Ayush
-from VenomX.misc import SUDOERS, db
-from VenomX.utils.database import (
+from L2RMUSIC import YouTube, app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import SUDOERS, db
+from L2RMUSIC.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from VenomX.utils.database import (
     music_on,
     set_loop,
 )
-from VenomX.utils.decorators.language import languageCB
-from VenomX.utils.formatters import seconds_to_min
-from VenomX.utils.inline import close_markup, stream_markup, stream_markup_timer
-from VenomX.utils.stream.autoclear import auto_clean
-from VenomX.utils.thumbnails import get_thumb
+from L2RMUSIC.utils.decorators.language import languageCB
+from L2RMUSIC.utils.formatters import seconds_to_min
+from L2RMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
+from L2RMUSIC.utils.stream.autoclear import auto_clean
+from L2RMUSIC.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

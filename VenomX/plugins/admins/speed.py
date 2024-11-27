@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from VenomX import app
-from VenomX.core.call import Ayush
-from VenomX.misc import SUDOERS, db
-from VenomX.utils import AdminRightsCheck
-from VenomX.utils.database import is_active_chat, is_nonadmin_chat
-from VenomX.utils.decorators.language import languageCB
-from VenomX.utils.inline import close_markup, speed_markup
+from L2RMUSIC import app
+from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.misc import SUDOERS, db
+from L2RMUSIC.utils import AdminRightsCheck
+from L2RMUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from L2RMUSIC.utils.decorators.language import languageCB
+from L2RMUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

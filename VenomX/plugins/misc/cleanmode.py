@@ -8,16 +8,16 @@ from pyrogram.raw import types
 
 import config
 from config import adminlist, chatstats, clean, userstats
-from VenomX import app, userbot
-from VenomX.misc import SUDOERS
-from VenomX.utils.database import (get_active_chats,
+from L2RMUSIC import app, userbot
+from L2RMUSIC.misc import SUDOERS
+from L2RMUSIC.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        
  get_served_chats,
  get_served_users, is_cleanmode_on, set_queries)
                                        
-from VenomX.utils.decorators.language import language
-from VenomX.utils.formatters import alpha_to_int
+from L2RMUSIC.utils.decorators.language import language
+from L2RMUSIC.utils.formatters import alpha_to_int
 
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
 AUTO_SLEEP = 5

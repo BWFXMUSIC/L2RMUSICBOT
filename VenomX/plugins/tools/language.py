@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from VenomX import app
-from VenomX.utils.database import get_lang, set_lang
-from VenomX.utils.decorators import ActualAdminCB, language, languageCB
+from L2RMUSIC import app
+from L2RMUSIC.utils.database import get_lang, set_lang
+from L2RMUSIC.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

@@ -6,10 +6,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from VenomX import app
-from VenomX.misc import _boot_
-from VenomX.plugins.sudo.sudoers import sudoers_list
-from VenomX.utils.database import (
+from L2RMUSIC import app
+from L2RMUSIC.misc import _boot_
+from L2RMUSIC.plugins.sudo.sudoers import sudoers_list
+from L2RMUSIC.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -17,9 +17,9 @@ from VenomX.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from VenomX.utils.decorators.language import LanguageStart
-from VenomX.utils.formatters import get_readable_time
-from VenomX.utils.inline import help_pannel, private_panel, start_panel
+from L2RMUSIC.utils.decorators.language import LanguageStart
+from L2RMUSIC.utils.formatters import get_readable_time
+from L2RMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

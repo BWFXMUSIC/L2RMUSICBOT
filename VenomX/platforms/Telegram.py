@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from VenomX import app
-from VenomX.utils.formatters import (
+from L2RMUSIC import app
+from L2RMUSIC.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
