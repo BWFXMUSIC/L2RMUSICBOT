@@ -6,12 +6,12 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from L2RMUSIC import Carbon, YouTube, app
-from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.core.call import Ashish
 from L2RMUSIC.misc import db
 from L2RMUSIC.utils.database import add_active_video_chat, is_active_chat
 from L2RMUSIC.utils.exceptions import AssistantErr
 from L2RMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from L2RMUSIC.utils.pastebin import AyushBin
+from L2RMUSIC.utils.pastebin import AshishBin
 from L2RMUSIC.utils.stream.queue import put_queue, put_queue_index
 from L2RMUSIC.utils.thumbnails import get_thumb
 
@@ -32,7 +32,7 @@ async def stream(
     if not result:
         return
     if forceplay:
-        await Ayush.force_stop_stream(chat_id)
+        await Ashish.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['play_19']}\n\n"
         count = 0
@@ -79,7 +79,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_14"])
-                await Ayush.join_call(
+                await Ashish.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -116,7 +116,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await AyushBin(msg)
+            link = await AshishBin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -165,7 +165,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Ayush.join_call(
+            await Ashish.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -225,7 +225,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Ayush.join_call(chat_id, original_chat_id, file_path, video=None)
+            await Ashish.join_call(chat_id, original_chat_id, file_path, video=None)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -277,7 +277,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Ayush.join_call(chat_id, original_chat_id, file_path, video=status)
+            await Ashish.join_call(chat_id, original_chat_id, file_path, video=status)
             await put_queue(
                 chat_id,
                 original_chat_id,
@@ -333,7 +333,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Ayush.join_call(
+            await Ashish.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,
@@ -391,7 +391,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Ayush.join_call(
+            await Ashish.join_call(
                 chat_id,
                 original_chat_id,
                 link,

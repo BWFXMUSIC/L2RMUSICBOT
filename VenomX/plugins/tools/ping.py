@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from L2RMUSIC import app
-from L2RMUSIC.core.call import Ayush
+from L2RMUSIC.core.call import Ashish
 from L2RMUSIC.utils import bot_sys_stats
 from L2RMUSIC.utils.decorators.language import language
 from L2RMUSIC.utils.inline import supp_markup
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         photo=PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await Ayush.ping()
+    pytgping = await Ashish.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

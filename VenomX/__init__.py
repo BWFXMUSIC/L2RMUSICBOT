@@ -1,4 +1,4 @@
-from L2RMUSIC.core.bot import Ayush
+from L2RMUSIC.core.bot import Ashish
 from L2RMUSIC.core.dir import dirr
 from L2RMUSIC.core.git import git
 from L2RMUSIC.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Ayush()
+app = Ashish()
 userbot = Userbot()
 
 
